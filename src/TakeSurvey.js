@@ -4,22 +4,23 @@ import { Link } from "react-router-dom";
 const TakeSurvey=()=>{
   return (
     <>
-      <p>1.Which of the following apps you have in your phone?</p>
-      <form className="question">
-        <input type="checkbox" id="LinkedIn" name="LinkedIn"></input>
-            <label for="linkedIn">LinkedIn</label><br></br>
-        <input type="checkbox" id="Facebook" name="Facebook"></input>
-            <label for="facebook">Facebook</label><br></br>
-        <input type="checkbox" id="Instagram" name="instagram"></input>
-            <label for="instagram">Instagram</label><br></br>
-        <input type="checkbox" id="Twitter" name="Twitter"></input>
-            <label for="Twitter">Twitter</label><br></br>
+    <form className="question">
+      <p>1.Which of the following job role you want to apply?</p>
       
-      <p>2. Are you free ?</p>
-      <input type="radio" id="Yes" name="gender"></input>
-          <label for="Yes">Yes</label>
-      <input type="radio" id="No" name="gender"></input>
-          <label for="No">No</label><br></br>
+        <input type="checkbox" id="frontend" name="frontend"></input>
+            <label for="frontend">&nbsp; Frontend Developer</label><br></br>
+        <input type="checkbox" id="backend" name="backend"></input>
+            <label for="backend">&nbsp; Backend Developer</label><br></br>
+        <input type="checkbox" id="fullstack" name="fullstack"></input>
+            <label for="fullstack">&nbsp; FullStack Developer</label><br></br>
+        <input type="checkbox" id="datascience" name="datascience"></input>
+            <label for="datascience"> &nbsp;Data Science Engineer</label><br></br>
+      <br/>
+      <p>2.How much Industry experience do you have?</p>
+      <input type="radio" id="0-2" name="experience"></input>
+          <label for="0-2">&nbsp;0-2 year</label>&nbsp;&nbsp;
+      <input type="radio" id="3+" name="experience"></input>
+          <label for="3+">&nbsp;3+ year</label><br></br>
     </form>
     <Link to="/response">
      <button type="submit" className="btn btn-success m-3 ">Confirm</button>
