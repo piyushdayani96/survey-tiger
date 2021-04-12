@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(229, 202, 160) !important;
+  background-color: rgb(203, 157, 255) !important;
 }
 
 .App {
@@ -8,7 +8,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(210, 201, 228);
+  background-color: rgb(248, 250, 158);
   margin:100px 260px auto 290px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -17,7 +17,7 @@ body{
 h1{
   font-size: 26px;
   font-weight: 800px;
-  color: purple;
+  color: rgb(245, 21, 245);
   cursor: pointer;
 }
 a:hover, a:visited, a:link, a:active {
@@ -29,6 +29,7 @@ a:hover, a:visited, a:link, a:active {
 button {
   margin:10px;
   font-size: 18px;
+  background-color: blue !important;
 }
 
 
